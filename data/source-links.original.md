@@ -147,3 +147,14 @@ https://github.com/browser-use/browser-use
 https://github.com/immich-app/immich
 https://github.com/Graphify-Labs/graphify
 
+## Batch 2 (2026-10-01)
+
+Frappe CRM - https://github.com/frappe/crm
+Mautic - https://github.com/mautic/mautic
+Chatwoot - https://github.com/chatwoot/chatwoot
+PostHog - https://github.com/PostHog/posthog
+OpenSEO - https://github.com/every-app/open-seo
+Cal.diy - https://github.com/calcom/cal.diy
+Autumn - https://github.com/useautumn/autumn
+Invoice Ninja - https://github.com/invoiceninja/invoiceninja
+Typebot - https://github.com/baptisteArno/typebot.io

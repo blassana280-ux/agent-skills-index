@@ -135,3 +135,11 @@ https://github.com/anomalyco/opencode
 https://github.com/mvanhorn/agentcookie
 https://github.com/browser-use/browser-use
 
+
+## Batch 2 (2026-10-01)
+
+https://github.com/frappe/crm
+https://github.com/mautic/mautic
+https://github.com/useautumn/autumn
+https://github.com/invoiceninja/invoiceninja
+https://github.com/baptisteArno/typebot.io

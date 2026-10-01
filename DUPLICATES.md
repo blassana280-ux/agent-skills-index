@@ -21,3 +21,17 @@ Duplicates were detected two ways: exact repeated URLs, and repositories that Gi
 | 148 | `https://github.com/Graphify-Labs/graphify` | duplicate of line 41 |
 
 No link was dropped without a replacement: every repository above still appears once in `README.md`.
+
+## Batch 2 (2026-10-01)
+
+A second list of 9 links was added.
+4 were already in the index, so only 5 new repositories were added, bringing the total to 120.
+
+| Entry | Reason not added |
+|---|---|
+| `Chatwoot - https://github.com/chatwoot/chatwoot` | already listed under Self-Hosted Apps & OSS Alternatives |
+| `PostHog - https://github.com/PostHog/posthog` | already listed under Self-Hosted Apps & OSS Alternatives |
+| `OpenSEO - https://github.com/every-app/open-seo` | already listed under Self-Hosted Apps & OSS Alternatives |
+| `Cal.diy - https://github.com/calcom/cal.diy` | already listed under Self-Hosted Apps & OSS Alternatives |
+
+New entries: `mautic/mautic`, `baptisteArno/typebot.io` and `frappe/crm` under Self-Hosted Apps & OSS Alternatives; `invoiceninja/invoiceninja` and `useautumn/autumn` under Finance & Business.

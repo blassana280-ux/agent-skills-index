@@ -1,9 +1,10 @@
 # Agent Skills and Tools Index
 
-A sorted, categorised and deduplicated index of 115 GitHub repositories, built from a flat list of saved links.
+A sorted, categorised and deduplicated index of 120 GitHub repositories, built from flat lists of saved links.
 Every entry carries a short description of what the repository is and a note on how to use it.
 
 Metadata (stars, language, licence, last push) was pulled from the GitHub API on 2026-09-12 and is a point-in-time snapshot.
+The five repositories added in the second batch (Mautic, Typebot, Frappe CRM, Invoice Ninja, Autumn) were pulled on 2026-10-01.
 
 The 29 repositories here that are installable agent skills were scanned with NVIDIA SkillSpector.
 See [SECURITY-SCAN.md](SECURITY-SCAN.md) for the results, including why the scanner's raw `DO_NOT_INSTALL` verdict should not be taken at face value.
@@ -21,9 +22,9 @@ See [SECURITY-SCAN.md](SECURITY-SCAN.md) for the results, including why the scan
 - [Diagrams, Docs & Writing](#diagrams-docs--writing) (7)
 - [Video, Image & Audio](#video-image--audio) (9)
 - [Security, OSINT & Privacy](#security-osint--privacy) (9)
-- [Self-Hosted Apps & OSS Alternatives](#self-hosted-apps--oss-alternatives) (15)
+- [Self-Hosted Apps & OSS Alternatives](#self-hosted-apps--oss-alternatives) (18)
 - [Developer Tools & Desktop](#developer-tools--desktop) (6)
-- [Finance & Business](#finance--business) (3)
+- [Finance & Business](#finance--business) (5)
 - [Awesome Lists, Learning & Career](#awesome-lists-learning--career) (7)
 
 ---
@@ -791,6 +792,27 @@ Open-source DocuSign alternative for e-signatures.
 Elegant self-hosted Kanban project tracking for teams.
 **Use it for:** Deploy as a Trello replacement; the free community edition is fully featured.
 
+### [mautic/mautic](https://github.com/mautic/mautic)
+
+`★ 10.7k` · `PHP` · `GPL-3.0` · last push 2026-10-01
+
+Open-source marketing automation: contact segmentation, email campaigns, landing pages, forms and lead scoring.
+**Use it for:** Self-host as a HubSpot or Marketo replacement; use `listmonk` instead if you only need plain newsletters without the automation layer.
+
+### [baptisteArno/typebot.io](https://github.com/baptisteArno/typebot.io)
+
+`★ 10.5k` · `TypeScript` · `FSL-1.1-Apache-2.0` · last push 2026-09-30
+
+Visual chatbot builder with 34+ blocks (inputs, logic, OpenAI, webhooks, Stripe payments) that embeds on any site as a container, popup or bubble, under the Functional Source Licence that converts to Apache 2.0 after two years.
+**Use it for:** Self-host to build lead-capture or support bots without code; it has a built-in Chatwoot block for handing conversations to a human.
+
+### [frappe/crm](https://github.com/frappe/crm)
+
+`★ 3.7k` · `Vue` · `AGPL-3.0` · last push 2026-10-01
+
+Frappe's fully featured open-source CRM: leads, deals, notes, tasks, email, WhatsApp and calling, built on the Frappe framework.
+**Use it for:** Self-host with Docker or Frappe Bench as a lighter alternative to `twenty`; integrates natively with ERPNext if you already run it.
+
 ---
 
 ## Developer Tools & Desktop
@@ -843,7 +865,14 @@ A terminal code-review UI with vim keybindings.
 
 ## Finance & Business
 
-Money, accounting and decision tooling.
+Money, invoicing, billing, accounting and decision tooling.
+
+### [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja)
+
+`★ 10.2k` · `PHP` · `Elastic-2.0` · last push 2026-10-01
+
+Invoices, quotes, recurring billing, expenses, projects and time tracking, with a client portal and online payments, source-available under the Elastic License 2.0.
+**Use it for:** Self-host as a FreshBooks or Zoho Invoice replacement; ELv2 lets you run it for yourself but not resell it as a hosted service.
 
 ### [securo-finance/securo](https://github.com/securo-finance/securo)
 
@@ -851,6 +880,13 @@ Money, accounting and decision tooling.
 
 Self-hosted, privacy-first personal finance manager.
 **Use it for:** Deploy to track accounts and spending without handing a third party your bank data.
+
+### [useautumn/autumn](https://github.com/useautumn/autumn)
+
+`★ 2.8k` · `TypeScript` · `Apache-2.0` · last push 2026-10-01
+
+Open-source pricing and billing layer on top of Stripe that tracks plans, feature entitlements, usage and credits, so you stop hand-writing webhook sync code.
+**Use it for:** Define plans once, then call its `check` and `track` endpoints from your app to gate features and meter usage; a good fit for usage-based AI products.
 
 ### [VonHoltenCodes/SlowBooks-Pro-2026](https://github.com/VonHoltenCodes/SlowBooks-Pro-2026)
 
